@@ -138,11 +138,11 @@
 
 
 
-- (void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation {
+//- (void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation {
 //    MKMapCamera *camera = [MKMapCamera cameraLookingAtCenterCoordinate:userLocation.coordinate fromEyeCoordinate:
-//                           CLLocationCoordinate2DMake( userLocation.coordinate.latitude, userLocation.coordinate.longitude) eyeAltitude:7000];
-//    [mapView setCamera:camera animated:YES];
-}
+//                          CLLocationCoordinate2DMake( userLocation.coordinate.latitude, userLocation.coordinate.longitude) eyeAltitude:7000];
+//   [mapView setCamera:camera animated:YES];
+//}
 
 
 
