@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wfI-vD-Fpq">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="iBf-CV-zX7">
+            <objects>
+                <viewController id="wfI-vD-Fpq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xyr-gi-SiU"/>
+                        <viewControllerLayoutGuide type="bottom" id="7oQ-vq-mPD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6iU-Mz-Fnd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="letsgoLogo" translatesAutoresizingMaskIntoConstraints="NO" id="v6C-KO-4ZG">
+                                <rect key="frame" x="161" y="280" width="52" height="67"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="v6C-KO-4ZG" firstAttribute="top" secondItem="Xyr-gi-SiU" secondAttribute="bottom" constant="260" id="7PW-is-OCx"/>
+                            <constraint firstItem="v6C-KO-4ZG" firstAttribute="centerX" secondItem="6iU-Mz-Fnd" secondAttribute="centerX" id="gy9-Rd-IoR"/>
+                            <constraint firstItem="7oQ-vq-mPD" firstAttribute="top" secondItem="v6C-KO-4ZG" secondAttribute="bottom" constant="320" id="t9B-B3-t2q"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y4P-M8-kKz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-218.40000000000001" y="-326.08695652173918"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="letsgoLogo" width="52" height="59"/>
+    </resources>
+</document>
