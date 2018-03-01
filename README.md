@@ -4,3 +4,6 @@ Este App nativo iOS, foi criado em Objective-C e é uma POC para mostrar as loja
 
 This App is for Show Stores in Centro of Rio de Janeiro over the Map and using Apple Directions. 
 
+
+# Preview
+
