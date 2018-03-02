@@ -7,4 +7,4 @@ This App is for Show Stores in Centro of Rio de Janeiro over the Map and using A
 
 # Preview
 
-/Users/marbetramon/Desktop/Simulator Screen Shot - iPhone 7 - 2018-03-01 at 15.22.28.png
+![alt text](/Users/marbetramon/Desktop/imageDirections.png)
